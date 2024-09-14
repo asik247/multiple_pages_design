@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+form > h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.three_parent input{
+    display: block;
+   
+    margin:20px auto;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 10px;
+    
+}
+form{
+    width: 500px;
+   margin:80px auto;
+ padding: 50px;
+  background-color: lightpink;
+  border-radius: 20px;
+   
+}
+form > textarea{
+display: block;
+margin: auto;
+width: 300px;
+height: 50px;
+margin-bottom: 20px;
+border-radius: 5px;
+}
+form > input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#733635;
+    color: whitesmoke;
+    cursor: pointer;
+   
+}

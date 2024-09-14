@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1A0F43;
+    padding: 20px 200px;
+    border-bottom: 4px solid #3b18ad44;
+    position: sticky;
+    top: 0;
+}
+nav > ul > li{
+    list-style: none;
+}
+nav > ul{
+    /* display: flex; */
+    display:flex;
+}
+nav > ul > li > a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 10px;
+ 
+}
+nav > ul > li> a:hover{
+    color: red;
+    padding: 10px;
+    background-color: rgb(17, 9, 9);
+    border-radius: 5px;
+
+}
+.logo{
+    font-size: 22px;
+    color: whitesmoke;
+}
+.hero_area_parent{
+    background-image: url(images/not\ isok.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.parent_input_i{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.parent_input_i input{
+    width: 300px;
+    height: 30px;
+    border-radius:5px 0 0 5px;
+    padding: 0 10px;
+    border: none;
+}
+.parent_input_i i{
+    font-size: 25px;
+    color: red;
+    background-color: rgb(15, 87, 15);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+
+    
+}
+
+/* mean secton code start here */
+
+
+
+.title_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+
+   
+}
+.head> h4{
+    font-size: 25px;
+    color: gray;
+}
+main{
+   
+    background-color: #1A0F43;
+    
+  
+    
+}
+.title_paragraph_parent{
+    width: 1100px;
+    margin: auto;
+ 
+}
+.pare > p > span{
+    background-color: rgb(238, 231, 231);
+    padding: 5px;
+    color:#1d1246 ;
+   border-radius: 5px;
+   margin: 0 5px;
+}
+.pare > p{
+    color: rgb(168, 151, 151);
+}
+
+
+/* vedio secrtion start */
+.vedios_section_mean{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* width: 1100px;
+    margin: auto; */
+padding-bottom: 100px;
+width: 1100px;
+margin: auto;
+
+grid-gap:5px;
+/* grid-row-gap:30px; */
+   
+}
+.vedio_images{
+   width: 250px;
+   height: 200px;
+
+}
+.vedio_images img{
+   
+    width: 100%;
+    height: 100%;
+   
+}
+
+.singel_veiod_parent .prices{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.singel_veiod_parent{
+    /* border: 2px solid rgb(218, 13, 13); */
+    padding: 10px 5px;
+    transition: 0.5s;
+}
+.singel_veiod_parent:hover{
+    transform: scale(1.1);
+}
+
+
+
+    
+
+
+/* pages section code start here */
+
+.parents{
+  padding-bottom: 40px;
+    display: flex;
+   width: 1100px;
+    justify-content: space-between;
+   
+    align-items: center; 
+    margin:auto;
+}
+.parents > div> p{
+    display: inline-block;
+    background-color: whitesmoke;
+   margin: 10px 10px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.parents > div > p > a{
+    text-decoration: none;
+   
+}
+.parents > div > p:first-child{
+    background-color:#e244e7;
+   
+}
+.parents > p{
+    background-color: rgba(16, 236, 16, 0.603);
+    padding:10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.parents > p > i{
+   
+   color: whitesmoke;
+
+}
+
+
+/* footerh srction start */
+.main_footer_parent{
+    background-color: #7c0d80e8;
+}
+
+.footer_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin:auto;
+  
+    color: whitesmoke;
+    padding: 20px 10px;
+  
+   
+}
+.first_footer_div{
+    width: 330px;
+    height: 200px;
+   
+}
+.first_footer_div > h2{
+    font-size: 30px;
+  padding-bottom: 15px;
+
+}
+.first_footer_div > p{
+    padding-bottom: 15px;
+}
+.first_footer_div > p > span{
+    color: red;
+    font-size: 18px;
+}
+
+.first_footer_div > p > a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.first_footer_div > a> i{
+    font-size: 20px;
+    background-color: black;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+.first_footer_div > a{
+    color: whitesmoke;
+    
+}

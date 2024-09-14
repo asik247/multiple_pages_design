@@ -1,0 +1,156 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.title_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+
+   
+}
+.head> h4{
+    font-size: 25px;
+    color: gray;
+}
+main{
+   
+    background-color: #1A0F43;
+    
+  
+    
+}
+.title_paragraph_parent{
+    width: 1100px;
+    margin: auto;
+ 
+}
+.pare > p > span{
+    background-color: whitesmoke;
+    padding: 5px;
+    color: black;
+   border-radius: 5px;
+   margin: 0 5px;
+}
+.pare > p{
+    color: gray;
+}
+.vedios_section_mean{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* width: 1100px;
+    margin: auto; */
+padding-bottom: 100px;
+width: 1100px;
+margin: auto;
+
+grid-gap:5px;
+/* grid-row-gap:30px; */
+   
+}
+.vedio_images{
+   width: 250px;
+   height: 200px;
+
+}
+.vedio_images img{
+   
+    width: 100%;
+    height: 100%;
+   
+}
+
+.singel_veiod_parent .prices{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.singel_veiod_parent{
+    /* border: 2px solid rgb(218, 13, 13); */
+    padding: 10px 5px;
+    transition: 0.5s;
+}
+.singel_veiod_parent:hover{
+    transform: scale(1.1);
+}
+
+.prices > h4{
+    color: red;
+}
+
+    
+/* .parents{
+  padding-bottom: 40px;
+    display: flex;
+   width: 1100px;
+    justify-content: space-between;
+   
+    align-items: center; 
+    margin:auto;
+}
+.parents > div> p{
+    display: inline-block;
+    background-color: whitesmoke;
+   margin: 10px 10px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.parents > div > p > a{
+    text-decoration: none;
+   
+}
+.parents > div > p:first-child{
+    background-color: green;
+}
+.parents > p{
+    background-color: green;
+    padding:10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.parents > p > i{
+   
+   color: whitesmoke;
+
+} */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1A0F43;
+    padding: 20px 200px;
+    border-bottom: 4px solid #e7e4f0b2;
+    position: sticky;
+    top: 0;
+}
+nav > ul > li{
+    list-style: none;
+}
+nav > ul{
+    /* display: flex; */
+    display:flex;
+}
+nav > ul > li > a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 10px;
+ 
+}
+nav > ul > li> a:hover{
+    color: red;
+    padding: 10px;
+    background-color: rgb(17, 9, 9);
+    border-radius: 5px;
+
+}
+.logo{
+    font-size: 22px;
+    color: whitesmoke;
+}
